@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/build",
+  "command": "/home/niceme/workspaces/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ -DRV1106_1103 -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/../../../3rdparty/allocator/dma -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/rknpu2/include -I/home/niceme/workspaces/rknn_model_zoo/utils -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/stb_image -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/jpeg_turbo/include -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/librga/include -g -o CMakeFiles/rknn_yolov8_demo.dir/main.cc.o -c /home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/main.cc",
+  "file": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/main.cc"
+},
+{
+  "directory": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/build",
+  "command": "/home/niceme/workspaces/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ -DRV1106_1103 -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/../../../3rdparty/allocator/dma -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/rknpu2/include -I/home/niceme/workspaces/rknn_model_zoo/utils -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/stb_image -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/jpeg_turbo/include -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/librga/include -g -o CMakeFiles/rknn_yolov8_demo.dir/postprocess.cc.o -c /home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/postprocess.cc",
+  "file": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/postprocess.cc"
+},
+{
+  "directory": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/build",
+  "command": "/home/niceme/workspaces/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-g++ -DRV1106_1103 -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/../../../3rdparty/allocator/dma -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/rknpu2/include -I/home/niceme/workspaces/rknn_model_zoo/utils -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/stb_image -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/jpeg_turbo/include -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/librga/include -g -o CMakeFiles/rknn_yolov8_demo.dir/rknpu2/yolov8_rv1106_1103.cc.o -c /home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/rknpu2/yolov8_rv1106_1103.cc",
+  "file": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/rknpu2/yolov8_rv1106_1103.cc"
+},
+{
+  "directory": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/build",
+  "command": "/home/niceme/workspaces/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc -DLIBRGA_IM2D_HANDLE -DRV1106_1103 -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/../../../3rdparty/allocator/dma -I/home/niceme/workspaces/rknn_model_zoo/utils -g -o utils.out/CMakeFiles/fileutils.dir/file_utils.c.o -c /home/niceme/workspaces/rknn_model_zoo/utils/file_utils.c",
+  "file": "/home/niceme/workspaces/rknn_model_zoo/utils/file_utils.c"
+},
+{
+  "directory": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/build",
+  "command": "/home/niceme/workspaces/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc -DLIBRGA_IM2D_HANDLE -DRV1106_1103 -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/../../../3rdparty/allocator/dma -I/home/niceme/workspaces/rknn_model_zoo/utils -g -o utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o -c /home/niceme/workspaces/rknn_model_zoo/utils/image_drawing.c",
+  "file": "/home/niceme/workspaces/rknn_model_zoo/utils/image_drawing.c"
+},
+{
+  "directory": "/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/build",
+  "command": "/home/niceme/workspaces/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc -DLIBRGA_IM2D_HANDLE -DRV1106_1103 -I/home/niceme/workspaces/rknn_model_zoo/examples/yolov8/cpp/../../../3rdparty/allocator/dma -I/home/niceme/workspaces/rknn_model_zoo/utils -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/stb_image -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/jpeg_turbo/include -I/home/niceme/workspaces/rknn_model_zoo/3rdparty/librga/include -g -o utils.out/CMakeFiles/imageutils.dir/image_utils.c.o -c /home/niceme/workspaces/rknn_model_zoo/utils/image_utils.c",
+  "file": "/home/niceme/workspaces/rknn_model_zoo/utils/image_utils.c"
+}
+]
