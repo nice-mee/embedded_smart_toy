@@ -1,4 +1,4 @@
-declare -a demo_lists=("yolov8" "yolov8_pose")
+declare -a demo_lists=("yolov8" "yolov8_pose" "mbf_arcface")
 
 BUILD_DIR="$(pwd)/build"
 INSTALL_DIR="$(pwd)/install"
