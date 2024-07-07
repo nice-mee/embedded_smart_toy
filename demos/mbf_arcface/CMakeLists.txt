@@ -35,6 +35,19 @@ target_link_libraries(${PROJECT_NAME}
     dl
 )
 
+add_executable(eval
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/eval.cc
+    ${rknpu_arcface_file}
+)
+
+target_link_libraries(eval
+    imageutils
+    fileutils
+    imagedrawing    
+    ${LIBRKNNRT}
+    dl
+)
+
 if (CMAKE_SYSTEM_NAME STREQUAL "Android")
     target_link_libraries(${PROJECT_NAME}
     log
@@ -53,10 +66,17 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${LIBRKNNRT_INCLUDES}
 )
 
-install(TARGETS ${PROJECT_NAME} DESTINATION .)
+target_include_directories(eval PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/src
+    ${LIBRKNNRT_INCLUDES}
+)
+
+install(TARGETS ${PROJECT_NAME} eval DESTINATION .)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/model/lecun1.jpg DESTINATION model)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/model/lecun2.jpg DESTINATION model)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/model/lecun3.jpg DESTINATION model)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/model/altman1.jpg DESTINATION model)
 file(GLOB RKNN_FILES "${CMAKE_CURRENT_SOURCE_DIR}/model/*.rknn")
 install(FILES ${RKNN_FILES} DESTINATION model)
+file(GLOB EVAL_FILES "${CMAKE_CURRENT_SOURCE_DIR}/eval_dataset/yale_face/*.jpg")
+install(FILES ${EVAL_FILES} DESTINATION eval_dataset/yale_face)
